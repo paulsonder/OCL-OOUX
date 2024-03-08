@@ -1,2 +1,2 @@
 <h2>Object-Oriented UX (OOUX) for Open Concept Lab</h2>
-<p></p>As part of our commitment to creating intuitive, user-centered designs, we've adopted the Object-Oriented UX (OOUX) methodology to drive our application design decisions. This introduction aims to familiarise contributors and stakeholders with the principles of OOUX and explain how we use it to structure our information </p>
+<p></p>As part of our commitment to creating intuitive, user-centered designs, we've adopted the Object-Oriented UX (OOUX) methodology to drive our application design decisions. This repository includes the most up-to-date ObJect Map, a history of change as we evolve our applications and services and a Wiki with documentation to understand more about this approach.</p>
