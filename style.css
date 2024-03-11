@@ -1,0 +1,109 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.logo {
+    width: 100px; /* Adjust size as needed */
+}
+
+h1 {
+    margin: 10px 0;
+}
+
+h2 {
+    margin: 0;
+    font-weight: normal;
+    color: #666;
+}
+
+.legend {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.legend .color {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #000;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.yellow { background-color: #fdfd86; }
+.blue { background-color: #add8e6; }
+.pink { background-color: #ffb6c1; }
+.green { background-color:#9FD784; }
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+}
+
+.header {
+    background-color: #FFFFFF;
+    width: 100%;
+    padding: 10px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive; /* For that handwritten look */
+    word-wrap: break-word;
+}
+.subheader {
+    width: 100%;
+    padding: 10px;
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive; /* For that handwritten look */
+}
+
+.post-it {
+    background-color: #fdfd86; /* Light yellow */
+    margin-bottom: 20px;
+    padding: 10px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    transform: rotate(0deg); /* Slight rotation */
+    border: 1px solid #ffed85;
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive; /* For that handwritten look */
+    max-width: 200px; /* Adjust as needed */
+    word-wrap: break-word;
+}
+
+.post-it-blue {
+    background-color: #A7CDF5; /* Light blue */
+    margin-bottom: 20px;
+    padding: 10px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    transform: rotate(0deg); /* Slight rotation */
+    border: 1px solid #8DC1F8;
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive; /* For that handwritten look */
+    max-width: 200px; /* Adjust as needed */
+    word-wrap: break-word;
+}
+
+.post-it-pink {
+    background-color: #FFD5E4; /* Light blue */
+    margin-bottom: 20px;
+    padding: 10px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    transform: rotate(0deg); /* Slight rotation */
+    border: 1px solid #F9B2CB;
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive; /* For that handwritten look */
+    max-width: 200px; /* Adjust as needed */
+    word-wrap: break-word;
+}
+
